@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)https://www.learnhowtoprogram.com/javascript/modern-js-apps/modern-js-apps-independent-project -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Modern JS Apps Independent Project</title>
+
+<script type="text/javascript" src="./javascript-week-1_files/48356a79ca"></script><script src="./javascript-week-1_files/nr-1026.min.js"></script><script type="text/javascript" async="" src="./javascript-week-1_files/ga.js"></script><script async="" src="./javascript-week-1_files/cloudflare.min.js"></script><script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"425f3ec96c08bb32d76a5f4cc257994b",petok:"24712de11c880d1752380d917f9b372d2497b2cf-1492978666-1800",zone:"learnhowtoprogram.com",rocket:"0",apps:{"ga_key":{"ua":"UA-37469895-2","ga_bs":"1"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=85b614c0f6/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"48356a79ca","applicationID":"1386295","transactionName":"IAwPEhQNWVxUFx5VUBAQDggVTUZYXhI=","queueTime":2,"applicationTime":35,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="tAIt6Eu5iO3rexELKmBwh0WDDi2AWYd+Tif9NnyMAMiD9hymHgHXQJMtGYJfgzZ8ZGDtgOAJ63foHklvlprGaw==">
+<link rel="stylesheet" media="all" href="./javascript-week-1_files/application-11aae51317641930eeb93a7f6ccc38b6bc6ecf53c449c0273d59effa73f919a3.css">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.learnhowtoprogram.com/assets/favicon-d0e8ff63da72a0c5ea15ebc045a7f9d2979d211a12e596a5ed5f5b1534e78919.png">
+<link href="./javascript-week-1_files/css" rel="stylesheet" type="text/css">
+<script src="./javascript-week-1_files/application-52a412fc0d58232a93ad6dfeb848c9760e59269e06afe654f8d9659891a4b8c3.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-37469895-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+/* ]]> */
+</script>
+<style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><style type="text/css" media="print">.usabilla_live_button_container { display: none; }</style></head>
+<body><div id="lightningjs-usabilla_live" style="display: none;"><div><iframe frameborder="0" id="lightningjs-frame-usabilla_live" src="./javascript-week-1_files/saved_resource.html"></iframe></div></div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<span class="label label-info">Exercise</span>
+<span class="label label-primary">Friday</span>
+<ul class="breadcrumb">
+<li><a href="https://www.learnhowtoprogram.com/javascript">JavaScript</a></li>
+<li><a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps">Modern JS Apps</a></li>
+<li class="active">Modern JS Apps Independent Project</li>
+</ul>
+<ul class="nav nav-tabs">
+<li class="active"><a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps/modern-js-apps-independent-project#text" data-toggle="tab">Text</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active in" id="text">
+<h2>Independent Projects Overview</h2>
+<hr>
+<p>Welcome to your first JavaScript independent project! Before you begin, take a moment to revisit and review the <a href="https://www.learnhowtoprogram.com/intro-to-programming/getting-started-at-epicodus-64627971-b5be-49e7-a8d7-7ca55d0c9e88/independent-projects-and-code-reviews">Independent Projects and Code Reviews</a> lesson. </p>
+<h2>Project</h2>
+<hr>
+<h3>Doctor Lookup</h3>
+<p><em>Achoo!</em> As we all know, everybody needs to see a doctor sometimes. But finding a doctor that provides the services you need nearby can be time consuming. To facilitate this, you have been asked to create a website where users may enter a medical issue (ie: <em>“sore throat”, "rash"</em>, etc.) into a form, submit it, and receive a list of doctors nearby who can treat their medical issue. Cool!</p>
+<p>To provide the data you need for this application, Epicodus has partnered with one of the leading providers of medical data - the BetterDoctor API. You'll use the <a href="https://developer.betterdoctor.com/">BetterDoctor API</a> to retrieve this information. This is a live API by a <a href="https://www.crunchbase.com/organization/betterdoctor-inc#/entity">Series A funded startup</a> currently under active development, and used by industry heavy-hitters such as HealthNet to provide accurate medical data. </p>
+<h3>Get Featured on the Epicodus Blog about our collab with BetterDoctor!</h3>
+<p>The BetterDoctor API is also currently working on a blog post featuring Epicodus! We will write a feature piece on our own blog, too, discussing how we use their API in this course. As part of that effort, the best Doctor Lookup projects will be <strong>featured on the Epicodus blog!</strong> Being featured publicly is an <em>excellent</em> thing to mention in a cover letter, resume, LinkedIn, or job interview. </p>
+<p>We are looking for: clear code, separation of concerns, no runtime errors, graceful failing (error messages, dealing with non-standard inputs correctly, validation), pitch-perfect documentation, and a stylish interface that enhances the usability of your app.</p>
+<h3>Creating API Keys</h3>
+<p>You will need to make an account and an API key. Do not use someone else’s API key. Avoid making excessive API calls (ie: accidental infinite loops) during development. And be sure to enter Epicodus as your Organization/Company name when signing up, because BetterDoctor grants Epicodus students higher rate limits for free.</p>
+<ul>
+<li>Visit the <a href="https://developer.betterdoctor.com/">BetterDoctor API</a> site and click <em>“Get a free API key”</em>.</li>
+<li>Fill out the form, listing Epicodus as the <em>Organization/Company Name</em>.</li>
+<li>Your API key should be listed on the front page (ex: “a2c356ibgh44…..”) or under <em>My Account &gt; Applications</em>.</li>
+</ul>
+<h3>Setup Instructions</h3>
+<ul>
+<li>Place your token in an <em>.env</em> file at the top level of your directory. <strong>(For grading purposes, name your API key variable <code class="prettyprint prettyprinted"><span class="pln">exports</span><span class="pun">.</span><span class="pln">apiKey</span></code> in <em>.env</em>. Keep spelling and capitalization identical, as it <em>considerably</em> speeds up the grading process.)</strong></li>
+<li>Include <em>.env</em> in <em>.gitignore</em>.</li>
+<li>Use at least two JavaScript files: One to receive form input, another to make an API request and display results.</li>
+<li>The following starter code will provide a response (logged to the console) containing 20 results from the Portland, OR area. Use it to build an object that can be pushed to an array that can later be returned.</li>
+</ul>
+<pre><code class="prettyprint lang-javascript prettyprinted"><span class="pln">exports</span><span class="pun">.</span><span class="pln">getDoctors </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">medicalIssue</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+  $</span><span class="pun">.</span><span class="kwd">get</span><span class="pun">(</span><span class="str">'https://api.betterdoctor.com/2016-03-01/doctors?query='</span><span class="pun">+</span><span class="pln"> medicalIssue</span><span class="pun">+</span><span class="str">'&amp;location=45.5231%2C-122.6765%2C%205&amp;user_location=45.5231%2C-122.6765&amp;skip=0&amp;limit=20&amp;user_key='</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> apiKey</span><span class="pun">)</span><span class="pln">
+   </span><span class="pun">.</span><span class="kwd">then</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">result</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+      console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="pln">result</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">})</span><span class="pln">
+   </span><span class="pun">.</span><span class="pln">fail</span><span class="pun">(</span><span class="kwd">function</span><span class="pun">(</span><span class="pln">error</span><span class="pun">){</span><span class="pln">
+      console</span><span class="pun">.</span><span class="pln">log</span><span class="pun">(</span><span class="str">"fail"</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">});</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+</span></code></pre>
+<ul>
+<li>This example assumes your API Key is stored in an <code class="prettyprint prettyprinted"><span class="pln">apiKey</span></code> variable, as described in <a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps/managing-api-keys-8240339c-83fa-4858-9b04-7c95413055cf">this lesson</a>. In order to make your applications quick to grade, <strong>please follow the example exactly</strong> and <strong>do not rename</strong> your apiKey variable to something different. </li>
+<li>Notice the <code class="prettyprint prettyprinted"><span class="pun">?</span><span class="pln">user_key</span><span class="pun">=</span></code> used with the API key after the username. You must include your personal access token with your request.</li>
+</ul>
+<h4>Additional Resources</h4>
+<p>Consult the <a href="https://developer.betterdoctor.com/documentation15">BetterDoctor API documentation</a> for further information. The documentation is extensive and allows you to experiment with different queries for your API calls before putting together your code!</p>
+<h2>Objectives</h2>
+<hr>
+<p>Your code will be reviewed for the following objectives:</p>
+<ul>
+<li>Does the website work as expected? </li>
+<li>Did you follow all setup instructions, including storing your API key in the variable <code class="prettyprint prettyprinted"><span class="pln">exports</span><span class="pun">.</span><span class="pln">apiKey</span></code>?</li>
+<li>Does the app separate front-end and back-end functionalities into different JavaScript files?</li>
+<li>Is <code class="prettyprint prettyprinted"><span class="pln">exports</span></code> used successfully in at least one JavaScript file?</li>
+<li>Are dependencies managed with npm and Bower? </li>
+<li>Does the app include a gulp-based asset pipeline with a development server? Does the asset pipeline include all tasks from the homework this week? (<strong>See below</strong>)</li>
+<li>Code and Git documentation follow best practices (setup instructions in README, <em>.gitignore</em> file discluding unnecessary content from repo, detailed well-formatted commit messages, etc.) </li>
+<li>Does the project demonstrate concepts covered this week? If prompted, are you able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology?</li>
+<li>Is the app in a presentable, portfolio-quality state?</li>
+<li>Is required functionality in place by the Friday deadline? </li>
+</ul>
+<h3>Gulp Tasks Reference</h3>
+<p>For reference, the following Gulp tasks were used this week:</p>
+<ul>
+<li>Concatenation, minification, and running the browserify package on your JavaScript. </li>
+<li>Building and cleaning. </li>
+<li>Running the development server with live reloading.</li>
+<li>Running JSHint. </li>
+<li>Automatically including Bower dependencies as <em>vendor.min.js</em> and <em>vendor.css</em>.</li>
+</ul>
+<h2>Further Exploration</h2>
+<hr>
+<p>If you have completed all objectives with time to spare, consider adding additional features, such as:</p>
+<ul>
+<li>Allow users to search by name <em>and</em> medical issue.</li>
+<li>Update the UI if a doctor can't be found (this happens when you search by name and issue quite frequently.)</li>
+<li>Add an additional API call to retrieve the list of specialities from the database before you query for a doctor, then return that list in a dropdown menu.</li>
+<li>Add styling with SASS. Use a Gulp task to compile it.</li>
+<li>Create a list of "recently viewed" doctors and display it.</li>
+<li>Create a list of "related doctors" and display it. You can define related however you wish.</li>
+<li>Add static pages, links to your GitHub, social media, and more.</li>
+</ul>
+<h2>Submission</h2>
+<hr>
+<p>Submit your code to the <strong>Modern JS Apps</strong> code review on <a href="https://epicenter.epicodus.com/">Epicenter</a> by 5:00pm on Friday. </p>
+<p>Visit <a href="https://www.learnhowtoprogram.com/javascript/getting-started-at-epicodus/independent-projects-and-code-reviews">Independent Projects and Code Reviews</a> for details on how to submit, how feedback works and course completion requirements.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="https://www.learnhowtoprogram.com/courses">Courses</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li> </li><li><a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps/weekly-technical-interview-prep-d5217c20-717b-4b0e-8ac6-3b204f1b7700">Previous</a></li>
+<li><a href="https://www.learnhowtoprogram.com/javascript/modern-js-apps/object-oriented-javascript-with-exports">Next</a></li>
+
+</ul>
+<ul class="nav navbar-nav pull-right">
+<li id="navbar-search">
+<form class="navbar-form navbar-left" action="https://www.learnhowtoprogram.com/lessons" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+<div class="input-group">
+<input type="text" name="search" id="search" placeholder="Search lessons" class="form-control">
+<div class="input-group-btn">
+<button name="button" type="submit" class="btn btn-info" id="lesson-search">
+<span class="glyphicon glyphicon-search"></span>
+</button> </div>
+</div>
+</form> </li>
+</ul>
+</div>
+</div>
+</nav>
+<footer class="footer">
+<div class="container">
+<p>© 2017 <a href="http://www.epicodus.com/">Epicodus</a>, Inc.</p>
+</div>
+</footer>
+ 
+<script type="text/javascript">/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+    window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/a5a2c64ff5b8.js");
+    /*]]>{/literal}*/</script>
+ 
+
+
+<div class="usabilla_live_button_container" tabindex="0" style="right:0px;top:50%;margin-top:-65px;position:fixed;width:39px;height:130px;z-index:999"><iframe src="./javascript-week-1_files/saved_resource(1).html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-tags="right" title="Usabilla Feedback Button" style="width: 39px; height: 130px; margin: 0px; padding: 0px; border: 0px; overflow: hidden; z-index: 9998; position: absolute; left: 0px; top: 0px; box-shadow: 0px 0px 0px; background-color: transparent;"></iframe></div></body></html>
